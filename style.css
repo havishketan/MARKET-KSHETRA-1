@@ -603,3 +603,43 @@ font-size:2.5rem;
 .event-box strong{
     color:#FFD54F;
 }
+/* ===========================
+        GALLERY
+=========================== */
+
+.gallery{
+    padding:100px 10%;
+    background:#111;
+    text-align:center;
+}
+
+.gallery h2{
+    font-size:3rem;
+    color:#FFD54F;
+    margin-bottom:20px;
+}
+
+.gallery p{
+    max-width:800px;
+    margin:0 auto 50px;
+    color:#ddd;
+    line-height:1.8;
+}
+
+.gallery-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery-container img{
+    width:100%;
+    border-radius:18px;
+    transition:0.4s;
+    cursor:pointer;
+    object-fit:cover;
+}
+
+.gallery-container img:hover{
+    transform:scale(1.05);
+}
