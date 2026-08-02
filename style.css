@@ -736,3 +736,72 @@ font-size:2.5rem;
     text-align:justify;
     font-size:1.05rem;
 }
+/* ===========================
+   EVENT INFORMATION SECTION
+=========================== */
+
+.event{
+    padding:100px 10%;
+}
+
+.event-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.event-card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+    padding:30px;
+    backdrop-filter:blur(10px);
+    transition:0.4s ease;
+}
+
+.event-card:hover{
+    transform:translateY(-10px);
+    border-color:#ffd54f;
+    box-shadow:0 15px 40px rgba(255,213,79,0.2);
+}
+
+.event-card h3{
+    color:#ffd54f;
+    margin-bottom:15px;
+    font-size:1.3rem;
+}
+
+.event-card p{
+    color:#d9d9d9;
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.event-card ul{
+    margin-top:10px;
+    padding-left:20px;
+}
+
+.event-card ul li{
+    color:#d9d9d9;
+    line-height:1.8;
+    margin-bottom:8px;
+}
+
+.event .section-heading{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.event .section-heading h2{
+    font-size:2.6rem;
+    margin:15px 0;
+}
+
+.event .section-heading p{
+    color:#bfbfbf;
+    max-width:700px;
+    margin:0 auto;
+    line-height:1.8;
+}
